@@ -1,4 +1,6 @@
 class User < ApplicationRecord
-    has_many :created_posts
-    has_many :voted_on_posts, through: :votes
+    has_many :posts
+    has_many :votes
+    # has_many :posts, through: :votes, as: :voted_posts
+
 end
