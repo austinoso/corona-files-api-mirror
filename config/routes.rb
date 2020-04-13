@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :votes
   resources :posts, except: [:delete]
-  resources :users, only: [:create, :update, :destory]
+  resources :users, only: [:update, :destory]
   
   namespace :api do
     namespace :v1 do
