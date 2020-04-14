@@ -1,3 +1,3 @@
 class VoteSerializer < ActiveModel::Serializer
-  attributes :post
+  attributes :id, :user_id, :status
 end
