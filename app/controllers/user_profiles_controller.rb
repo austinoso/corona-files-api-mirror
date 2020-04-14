@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class UserProfilesController < ApplicationController
     before_action :set_user, only: [:show, :update, :destroy]
   
     # GET /users/1
@@ -13,6 +13,11 @@ class UsersController < ApplicationController
       else
         render json: @user_profile.errors, status: :unprocessable_entity
       end
+    end
+
+    def index 
+      @user_profiles = UserProfile.all
+      render json: @user_profiles
     end
   
     # DELETE /user_profiles/1
