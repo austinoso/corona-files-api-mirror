@@ -35,6 +35,11 @@ class PostsController < ApplicationController
     end
   end
 
+  def upvote
+    @post = Post.find(params[:id])
+    @post.votes.create
+  end
+
   # DELETE /posts/1
   def destroy
     @post.destroy
