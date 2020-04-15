@@ -1,10 +1,7 @@
 
-Vote.destroy_all
-Post.destroy_all
-User.destroy_all
 
-user1 = User.create!(username: "aaronminyard", password: 'password' )
-user2 = User.create!(username: "orio", password: 'password')
+user1 = User.create!(username: "aaronminyard1", password: 'password' )
+user2 = User.create!(username: "orio1", password: 'password')
 
 user_profile1 = UserProfile.create!(picture: "/profile.png", bio: "I am a BayArea native who likes to stay up to date with news, especially regarding the corona virus.", user: user1)
 
