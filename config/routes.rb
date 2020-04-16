@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :comments
   resources :votes
-  resources :posts, except: [:delete]
+  resources :posts#, except: [:delete]
   resources :users#, only: [:update, :destory]
   resources :user_profiles
   
