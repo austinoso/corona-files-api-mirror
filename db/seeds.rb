@@ -70,12 +70,42 @@ post26 = Post.create!(title: "Coronavirus Puts San Francisco’s 4/20 Celebratio
 
 
 vote1 = Vote.create!(user: user2, post: post1, status: true)
-
 vote2 = Vote.create!(user: user1, post: post2, status: true)
 vote3 = Vote.create!(user: user1, post: post3, status: true)
-
 vote4 = Vote.create!(user: user2, post: post4, status: true)
-vote5 = Vote.create!(user: user2, post: post5, status: true)
+vote5 = Vote.create!(user: user3, post: post5, status: true)
+vote6 = Vote.create!(user: user4, post: post6, status: false)
+vote7 = Vote.create!(user: user5, post: post7, status: true)
+vote8 = Vote.create!(user: user1, post: post8, status: false)
+vote9 = Vote.create!(user: user2, post: post9, status: true)
+vote10 = Vote.create!(user: user3, post: post10, status: false)
+vote11 = Vote.create!(user: user4, post: post11, status: true)
+vote12 = Vote.create!(user: user5, post: post12, status: false)
+vote13 = Vote.create!(user: user1, post: post13, status: true)
+vote14 = Vote.create!(user: user2, post: post14, status: false)
+vote15 = Vote.create!(user: user3, post: post15, status: true)
+vote16 = Vote.create!(user: user4, post: post16, status: false)
+vote17 = Vote.create!(user: user5, post: post17, status: true)
+vote18 = Vote.create!(user: user1, post: post18, status: false)
+vote19 = Vote.create!(user: user2, post: post19, status: true)
+vote20 = Vote.create!(user: user3, post: post20, status: false)
+vote21 = Vote.create!(user: user4, post: post21, status: true)
+vote22 = Vote.create!(user: user5, post: post22, status: false)
+vote23 = Vote.create!(user: user1, post: post23, status: true)
+vote24 = Vote.create!(user: user2, post: post25, status: false)
+vote25 = Vote.create!(user: user3, post: post25, status: true)
+vote26 = Vote.create!(user: user4, post: post24, status: false)
+vote27 = Vote.create!(user: user5, post: post26, status: true)
+vote28 = Vote.create!(user: user1, post: post26, status: false)
+vote29 = Vote.create!(user: user2, post: post22, status: true)
+vote30 = Vote.create!(user: user3, post: post21, status: false)
+vote31 = Vote.create!(user: user4, post: post23, status: true)
+vote32 = Vote.create!(user: user5, post: post24, status: false)
+vote33 = Vote.create!(user: user1, post: post25, status: true)
+vote34 = Vote.create!(user: user2, post: post26, status: false)
+vote35 = Vote.create!(user: user3, post: post26, status: true)
+vote36 = Vote.create!(user: user4, post: post20, status: false)
+
 
 
 
