@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :comments
   resources :votes
   resources :posts, except: [:delete]
-  resources :users
+  resources :users#, only: [:update, :destory]
   resources :user_profiles
   
   namespace :api do
