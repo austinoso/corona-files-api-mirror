@@ -33,6 +33,6 @@ class UserProfilesController < ApplicationController
   
       # Only allow a trusted parameter "white list" through.
       def user_profile_params
-        params.require(:user_profile).permit(:bio, :picture)
+        params.require(:user_profile).permit(:bio, :picture, :user_id)
       end
   end
